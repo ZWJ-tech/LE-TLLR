@@ -1,2 +1,10 @@
-# LE-TLLR
- 
+# Two-level label recovery-based label embedding for multi-label classification with missing labels (LE-TLLR)
+## Abstract
+Different from single-label learning, multi-label learning has rich semantic information. Label embedding obtains the inherent intelligence of the label space by projecting the label space into a latent one. However, the label space is inevitably incomplete. The missing label data will lead to the label embedding model capturing incomplete inherent information. Therefore, label data recovery becomes particularly important. However, the label correlations recovery mechanism only considers the label correlations but ignores the objective existence of instance-correlation information. The information we obtain from the perspective of label correlations alone will produce inadequate and incorrect phenomena when a large number of labels are lost or wrong. In this paper, a two-level label recovery mechanism is used not only to recover label data from the label perspective but also to take full advantage of the instance correlations in the label space. Although the two-level label recovery mechanism considers both instances and labels, it ignores the label space after recovery to capture its essential information. Therefore, combining the two-level semantic information, we propose a label embedding for multi-label classification based on a two-level label recovery mechanism about missing labels model for incomplete datasets, which is the two-level label recovery. Firstly, the two-level label space is projected to the inherent space, and then the instance and label correlations information are captured in the inherent space. Finally, it is applied to the label prediction of classifiers. The algorithm is trained and tested on several complete and incomplete multi-label datasets. It shows that the proposed algorithm has a good classification effect on the largely missed datasets. The results and statistical hypothesis tests further verify the effectiveness of the proposed algorithm.
+## Citation
+ ````
+ title={Two-level label recovery-based label embedding for multi-label classification with missing labels},
+ author={Yibin Wang, Weijie Zheng, Yusheng Cheng, Dawei Zhao},
+ joural={Applied soft computing},
+ year={2020}
+ ````
